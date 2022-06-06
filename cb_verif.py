@@ -105,13 +105,13 @@ class Messages():
         self.args = args
 
     def card_valid_message(self):
-        return f"Validité : ✅\nIndustrie : {self.args['industry']}\nInstitution : {self.args['institution']}"
+        return f"Validité : Valide\nIndustrie : {self.args['industry']}\nInstitution : {self.args['institution']}"
     
     def card_not_valid_message(self):
-        return f"Validité : ❌"
+        return f"Validité : Non valide"
     
     def card_error_message(self):
-        return f"Le numéro de CB est trop court ❌"
+        return f"Le numéro de CB est trop court !"
     
 print('£247 CARD VERIF')
 while True:
